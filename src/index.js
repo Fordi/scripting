@@ -14,10 +14,6 @@ export const readJson = async (path) =>
 export const writeJson = async (path, obj) =>
   await writeFile(path, JSON.stringify(obj, null, 2), "utf8");
 
-export const ownProject = process.env.npm_package_json
-  ? dirname(process.env.npm_package_json)
-  : process.cwd();
-
 export const exists = (path) =>
   stat(path).then(
     () => true,
