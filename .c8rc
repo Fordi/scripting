@@ -1,0 +1,22 @@
+{
+  "reporter": [
+    "html"
+  ],
+  "all": true,
+  "reportDir": "./coverage",
+  "src": ".",
+  "include": [
+    "*",
+    "**/*"
+  ],
+  "exclude": [
+    "coverage/**/*",
+    "*.test/**/*",
+    "**/*.test*"
+  ],
+  "checkCoverage": true,
+  "lines": 75,
+  "functions": 75,
+  "statements": 75,
+  "branches": 75
+}

@@ -1,0 +1,28 @@
+{
+  "name": "@fordi-org/scripting",
+  "version": "1.0.0",
+  "description": "Tiny lib for doing shell-scripty stuff",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "c8 -- node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fordi/scripting-js.git"
+  },
+  "keywords": [
+    "scripting",
+    "install",
+    "shell"
+  ],
+  "author": "Bryan Elliott <fordiman@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fordi/scripting-js/issues"
+  },
+  "homepage": "https://github.com/Fordi/scripting-js#readme",
+  "devDependencies": {
+    "c8": "^9.1.0"
+  }
+}
